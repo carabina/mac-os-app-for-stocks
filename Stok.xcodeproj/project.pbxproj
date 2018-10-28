@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		391AFCA1213A9CFA00D0150C /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391AFCA0213A9CFA00D0150C /* Strategy.swift */; };
+		39E8C94F2111AAD5007FC764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E8C94E2111AAD5007FC764 /* AppDelegate.swift */; };
+		39E8C9512111AAD5007FC764 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E8C9502111AAD5007FC764 /* ViewController.swift */; };
+		39E8C9532111AAD8007FC764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39E8C9522111AAD8007FC764 /* Assets.xcassets */; };
+		39E8C9562111AAD9007FC764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39E8C9542111AAD9007FC764 /* Main.storyboard */; };
+		39E8C95F2111C43F007FC764 /* StockInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E8C95E2111C43F007FC764 /* StockInformation.swift */; };
+		FDE63F64F7AA8D25561B1F97 /* Pods_Stok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E899BFC9FFEFE5876EA7F2 /* Pods_Stok.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10E899BFC9FFEFE5876EA7F2 /* Pods_Stok.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stok.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		271358260CC6268095A7E0D2 /* Pods-Stok.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stok.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stok/Pods-Stok.release.xcconfig"; sourceTree = "<group>"; };
+		391AFCA0213A9CFA00D0150C /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
+		39E8C94B2111AAD5007FC764 /* Stok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E8C94E2111AAD5007FC764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39E8C9502111AAD5007FC764 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39E8C9522111AAD8007FC764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39E8C9552111AAD9007FC764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39E8C9572111AAD9007FC764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39E8C9582111AAD9007FC764 /* Stok.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stok.entitlements; sourceTree = "<group>"; };
+		39E8C95E2111C43F007FC764 /* StockInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockInformation.swift; sourceTree = "<group>"; };
+		E463D304B0D83B4B544FC4A5 /* Pods-Stok.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stok.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stok/Pods-Stok.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39E8C9482111AAD5007FC764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE63F64F7AA8D25561B1F97 /* Pods_Stok.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E85DB0736D4311B68C7AD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E463D304B0D83B4B544FC4A5 /* Pods-Stok.debug.xcconfig */,
+				271358260CC6268095A7E0D2 /* Pods-Stok.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		39E8C9422111AAD5007FC764 = {
+			isa = PBXGroup;
+			children = (
+				39E8C94D2111AAD5007FC764 /* Stok */,
+				39E8C94C2111AAD5007FC764 /* Products */,
+				04E85DB0736D4311B68C7AD7 /* Pods */,
+				FE35280FA8B9F84FA4E1A628 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		39E8C94C2111AAD5007FC764 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39E8C94B2111AAD5007FC764 /* Stok.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39E8C94D2111AAD5007FC764 /* Stok */ = {
+			isa = PBXGroup;
+			children = (
+				39E8C94E2111AAD5007FC764 /* AppDelegate.swift */,
+				39E8C9502111AAD5007FC764 /* ViewController.swift */,
+				39E8C9522111AAD8007FC764 /* Assets.xcassets */,
+				39E8C9542111AAD9007FC764 /* Main.storyboard */,
+				39E8C9572111AAD9007FC764 /* Info.plist */,
+				39E8C9582111AAD9007FC764 /* Stok.entitlements */,
+				39E8C95E2111C43F007FC764 /* StockInformation.swift */,
+				391AFCA0213A9CFA00D0150C /* Strategy.swift */,
+			);
+			path = Stok;
+			sourceTree = "<group>";
+		};
+		FE35280FA8B9F84FA4E1A628 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10E899BFC9FFEFE5876EA7F2 /* Pods_Stok.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39E8C94A2111AAD5007FC764 /* Stok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39E8C95B2111AAD9007FC764 /* Build configuration list for PBXNativeTarget "Stok" */;
+			buildPhases = (
+				F965F44158DC4187E3556722 /* [CP] Check Pods Manifest.lock */,
+				39E8C9472111AAD5007FC764 /* Sources */,
+				39E8C9482111AAD5007FC764 /* Frameworks */,
+				39E8C9492111AAD5007FC764 /* Resources */,
+				9DD0106783AECBD4438FD373 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stok;
+			productName = Stok;
+			productReference = 39E8C94B2111AAD5007FC764 /* Stok.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39E8C9432111AAD5007FC764 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Zakria;
+				TargetAttributes = {
+					39E8C94A2111AAD5007FC764 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 39E8C9462111AAD5007FC764 /* Build configuration list for PBXProject "Stok" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39E8C9422111AAD5007FC764;
+			productRefGroup = 39E8C94C2111AAD5007FC764 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39E8C94A2111AAD5007FC764 /* Stok */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39E8C9492111AAD5007FC764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E8C9532111AAD8007FC764 /* Assets.xcassets in Resources */,
+				39E8C9562111AAD9007FC764 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9DD0106783AECBD4438FD373 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Stok/Pods-Stok-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stok/Pods-Stok-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F965F44158DC4187E3556722 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stok-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39E8C9472111AAD5007FC764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391AFCA1213A9CFA00D0150C /* Strategy.swift in Sources */,
+				39E8C9512111AAD5007FC764 /* ViewController.swift in Sources */,
+				39E8C95F2111C43F007FC764 /* StockInformation.swift in Sources */,
+				39E8C94F2111AAD5007FC764 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39E8C9542111AAD9007FC764 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39E8C9552111AAD9007FC764 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39E8C9592111AAD9007FC764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39E8C95A2111AAD9007FC764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		39E8C95C2111AAD9007FC764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E463D304B0D83B4B544FC4A5 /* Pods-Stok.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Stok/Stok.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Stok/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Gardozo.Stok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		39E8C95D2111AAD9007FC764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 271358260CC6268095A7E0D2 /* Pods-Stok.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Stok/Stok.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Stok/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Gardozo.Stok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39E8C9462111AAD5007FC764 /* Build configuration list for PBXProject "Stok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39E8C9592111AAD9007FC764 /* Debug */,
+				39E8C95A2111AAD9007FC764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39E8C95B2111AAD9007FC764 /* Build configuration list for PBXNativeTarget "Stok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39E8C95C2111AAD9007FC764 /* Debug */,
+				39E8C95D2111AAD9007FC764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39E8C9432111AAD5007FC764 /* Project object */;
+}
